@@ -1,0 +1,89 @@
+* {
+  outline: none;
+}
+
+.calculator-body {
+  margin: 50px;
+}
+
+.result {
+  height: 100px;
+  background-color: #d6cdea;
+  width: 399px;
+  border: 1px solid #000;
+  border-bottom: 4px solid black;
+  margin-bottom: 2px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+
+.result p {
+  margin: 5px;
+}
+
+.userInput {
+  font-size: 26px;
+  color: grey;
+  text-align: right;
+}
+
+.answer {
+  font-size: 40px;
+  text-align: right;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 400px;
+}
+
+.numStuff {
+  display: flex;
+  flex-direction: row;
+}
+
+.singleButt {
+  height: 100px;
+  width: 100px;
+  background-color: #cdf5f6;
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-size: 30px;
+}
+
+.singleButt:hover {
+  border: 3px solid #000;
+}
+
+.operations {
+  display: flex;
+  flex-direction: column;
+}
+
+.singleO {
+  width: 100px;
+  height: 80px;
+  background-color: #eff9da;
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-size: 30px;
+}
+
+.singleO:hover {
+  border: 3px solid #000;
+}
